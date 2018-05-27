@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="FS App running on Chrome Browser">
+
+    <parameter name="useSauceLab" value="false"/>
+    <parameter name="userName" value="mdalam"/>
+    <parameter name="key" value="662b4ed7-1a59-4ab2-ae8c-2dfe1e32f4aa"/>
+    <parameter name="browserVersion" value="45.0.2454.93"/>
+
+
+    <parameter name="appUrl" value="https://www.final-score.com"/>
+    <parameter name="os" value="mac"/>
+    <parameter name="browserName" value="chrome"/>
+
+
+
+
+
+    <test name="Home Page">
+        <classes>
+            <!--&lt;!&ndash;<class name="SignupTest"/>-->
+            <!--<class name="PlaceOrder"/>-->
+            <!--<class name="SignInTest"/>-->
+            <class name="HomePage"/>
+
+        </classes>
+    </test>
+
+
+
+</suite>
